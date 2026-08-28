@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Поддержка — Лума</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+  :root{--bg:#f6f5fb;--surface:#fff;--surface-2:#f0edf8;--border:#e4e0ef;--ink:#191727;--muted:#565170;--faint:#87819c;--accent:#6a5cc4;--accent-soft:#ebe8f8;--shadow:0 1px 2px rgba(25,23,39,.05),0 8px 24px rgba(25,23,39,.06)}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#131019;--surface:#1c1927;--surface-2:#232030;--border:#322d43;--ink:#ece9f7;--muted:#a8a3bc;--faint:#736d88;--accent:#b9aef4;--accent-soft:#241f39;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.32)}}
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;font-size:16.5px;line-height:1.66;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:680px;margin:0 auto;padding:clamp(28px,5vw,64px) clamp(20px,5vw,32px) 88px}
+  h1{font-size:clamp(28px,5vw,40px);font-weight:700;letter-spacing:-.02em;margin:0 0 12px;text-wrap:balance}
+  .lede{color:var(--muted);margin:0 0 4px;font-size:17.5px}
+  h2{font-size:clamp(19px,2.8vw,23px);font-weight:600;letter-spacing:-.01em;margin:44px 0 14px;text-wrap:balance}
+  p{margin:0 0 14px}
+  b{font-weight:600}
+  a{color:var(--accent);text-underline-offset:2px}
+  .contact{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px 24px;margin:26px 0 0;box-shadow:var(--shadow)}
+  .contact .big{font-size:20px;font-weight:600;margin:0 0 6px}
+  .contact p{margin:0;color:var(--muted);font-size:15.5px}
+  .contact a{font-size:19px;font-weight:600}
+  .q{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 22px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .q h3{font-size:17px;font-weight:600;margin:0 0 8px}
+  .q p{margin:0 0 10px;color:var(--muted);font-size:15.5px}
+  .q p:last-child{margin:0}
+  .q b{color:var(--ink)}
+  .path{background:var(--surface-2);border:1px solid var(--border);border-radius:6px;padding:1px 7px;font-size:14.5px;white-space:nowrap}
+  .warn{border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 12px 12px 0;padding:14px 18px;margin:26px 0 0;color:var(--muted);font-size:15px}
+  .warn b{color:var(--ink)}
+  .foot{margin-top:44px;padding-top:20px;border-top:1px solid var(--border);color:var(--faint);font-size:14px}
+  .foot a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Поддержка «Лумы»</h1>
+  <p class="lede">Приложение для частной практики психолога: расписание, клиенты, задания между сессиями и учёт оплат. Всё хранится только на вашем iPhone.</p>
+
+  <div class="contact">
+    <p class="big">Написать разработчику</p>
+    <p><a href="mailto:semption@yandex.ru">semption@yandex.ru</a></p>
+    <p style="margin-top:8px">Отвечаю на вопросы, замечания и предложения. Если пишете об ошибке — укажите, пожалуйста, версию приложения (она внизу экрана «Настройки») и модель iPhone.</p>
+  </div>
+
+  <h2>Частые вопросы</h2>
+
+  <div class="q">
+    <h3>Где хранятся мои записи?</h3>
+    <p>Только на вашем iPhone. У приложения нет серверов и нет выхода в сеть — данные физически некуда передать. Ни разработчик, ни кто-либо ещё их не видит.</p>
+  </div>
+
+  <div class="q">
+    <h3>Как сделать резервную копию?</h3>
+    <p><span class="path">Настройки → Экспорт в файл</span>. Приложение попросит придумать пароль и сохранит всё одним зашифрованным файлом — его можно положить в «Файлы», в iCloud Drive или переслать себе.</p>
+    <p>Делайте копию хотя бы раз в месяц: данные есть только на телефоне, и если телефон потеряется, восстановить их будет неоткуда.</p>
+  </div>
+
+  <div class="q">
+    <h3>Я забыл пароль от резервной копии</h3>
+    <p>К сожалению, восстановить её не получится — и это не ограничение, которое можно обойти. Файл зашифрован вашим паролем, а сам пароль нигде не сохраняется: ни в приложении, ни у разработчика. Именно поэтому копию не сможет прочитать и посторонний.</p>
+  </div>
+
+  <div class="q">
+    <h3>Как перенести данные на новый iPhone?</h3>
+    <p>На старом: <span class="path">Настройки → Экспорт в файл</span>, сохраните файл в iCloud Drive. На новом установите «Луму» и выберите <span class="path">Настройки → Импорт из файла</span>.</p>
+    <p><b>Важно:</b> импорт заменяет содержимое целиком, а не добавляет к имеющемуся.</p>
+  </div>
+
+  <div class="q">
+    <h3>Почему нет синхронизации с облаком?</h3>
+    <p>Это осознанное решение. «Лума» рассчитана на записи о психическом здоровье, и главная гарантия приложения — данные не покидают устройство. Роль облачной сохранности выполняет зашифрованная резервная копия: вы сами решаете, где её хранить, а прочитать её без вашего пароля нельзя.</p>
+  </div>
+
+  <div class="q">
+    <h3>Не приходят напоминания</h3>
+    <p>Проверьте два места. В приложении: <span class="path">Настройки → Напоминать о сессиях</span> — тумблер включён. В системе: <span class="path">Настройки iPhone → Уведомления → Лума</span> — уведомления разрешены.</p>
+    <p>Напоминания приходят только для будущих сессий, которые ещё не отмечены как проведённые.</p>
+  </div>
+
+  <div class="q">
+    <h3>Имя клиента видно на экране блокировки</h3>
+    <p>По умолчанию имя скрыто — в уведомлении указано только время. Если оно всё же отображается, значит включён параметр <span class="path">Настройки → Показывать имя клиента</span>; выключите его.</p>
+  </div>
+
+  <div class="q">
+    <h3>Клиент вернулся после перерыва — как достать его из архива?</h3>
+    <p>На вкладке «Клиенты» нажмите значок архива в правом верхнем углу — появится раздел «Архив». Откройте карточку клиента и нажмите <b>«Восстановить клиента»</b>. Вся история сессий сохраняется.</p>
+  </div>
+
+  <div class="q">
+    <h3>Что означает переключатель «Сессия проведена»?</h3>
+    <p>Это отметка о том, что встреча состоялась. Она влияет на деньги: проведённая сессия попадает в доход, а если оплата не отмечена — в долг клиента. Переключатель обратимый, ошибиться не страшно.</p>
+  </div>
+
+  <div class="q">
+    <h3>Что будет с данными, если удалить приложение?</h3>
+    <p>Они удалятся вместе с ним и восстановлению не подлежат. Если данные нужны — сделайте резервную копию <b>до</b> удаления.</p>
+  </div>
+
+  <div class="warn">
+    <b>Не нашли ответа?</b> Напишите на <a href="mailto:semption@yandex.ru">semption@yandex.ru</a> — постараюсь помочь.
+  </div>
+
+  <p class="foot">«Лума» · разработчик Kirill Khorev · <a href="privacy.html">Политика конфиденциальности</a></p>
+</div>
+</body>
+</html>
